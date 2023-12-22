@@ -72,8 +72,7 @@ int main(){
 
 	// 計算 n = p*q
 	n = p * q;
-	p--,q--;
-    phi = p * q;
+    	phi = (p-1) * (q-1);
 
 	while(true) {
 		cout << "輸入公鑰e：";
